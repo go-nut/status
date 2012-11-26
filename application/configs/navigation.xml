@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configdata>
+  <nav>
+    <home>
+      <label>Status</label>
+      <controller>index</controller>
+      <action>index</action>
+    </home>
+    <wtr>
+      <label>WTR quote</label>
+      <controller>wtr</controller>
+      <action>quote</action>
+    </wtr>
+  </nav>
+</configdata>

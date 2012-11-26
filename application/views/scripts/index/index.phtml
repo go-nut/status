@@ -1,0 +1,11 @@
+<?php
+if (App_Service_User::Singleton()->getUsername()) {
+  $status_form = new Form_PostForm();
+  echo $status_form;
+}
+?>
+
+<?= $this->partialLoop('partials/posts.phtml', $this->paginator); ?>
+
+<?= $this->paginationControl($this->paginator, 'Sliding', 'partials/pagination.phtml'); ?>
+
